@@ -23,7 +23,7 @@ datapackage.json: $(OUTPUT_FILES) scripts/build.py datapackage.yaml
 	python main.py build
 
 check:
-	@echo 'No checks implemented...'
+	frictionless validate datapackage.json
 
 publish: 
 	git add -Af datapackage.json data/*.csv data-raw/*.$(EXT)
