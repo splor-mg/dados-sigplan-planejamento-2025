@@ -66,16 +66,16 @@ fields:
   - name: Unidade Administrativa Responsável pelo Programa
     target: ua_programa_nome
     type: string
-  - name: Previsão Orçamentária 2024
+  - name: Previsão Orçamentária 2025
     target: vr_meta_orcamentaria_ano0
     type: number
-  - name: Previsão Orçamentária 2025
+  - name: Previsão Orçamentária 2026
     target: vr_meta_orcamentaria_ano1
     type: number
-  - name: Previsão Orçamentária 2026
+  - name: Previsão Orçamentária 2027
     target: vr_meta_orcamentaria_ano2
     type: number
-  - name: Previsão Orçamentária 2027
+  - name: Previsão Orçamentária 2028
     target: vr_meta_orcamentaria_ano3
     type: number
   - name: Programa Transposto

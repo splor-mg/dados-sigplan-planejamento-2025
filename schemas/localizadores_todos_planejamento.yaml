@@ -76,28 +76,28 @@ fields:
   - name: Município
     target: municipio
     type: string
-  - name: Previsão Orçamentária 2024
+  - name: Previsão Orçamentária 2025
     target: vr_meta_orcamentaria_ano0
     type: number
-  - name: Previsão Física 2024
+  - name: Previsão Física 2025
     target: vr_meta_fisica_ano0
     type: integer
-  - name: Previsão Orçamentária 2025
+  - name: Previsão Orçamentária 2026
     target: vr_meta_orcamentaria_ano1
     type: number
-  - name: Previsão Física 2025
+  - name: Previsão Física 2026
     target: vr_meta_fisica_ano1
     type: integer
-  - name: Previsão Orçamentária 2026
+  - name: Previsão Orçamentária 2027
     target: vr_meta_orcamentaria_ano2
     type: number
-  - name: Previsão Física 2026
+  - name: Previsão Física 2027
     target: vr_meta_fisica_ano2
     type: integer
-  - name: Previsão Orçamentária 2027
+  - name: Previsão Orçamentária 2028
     target: vr_meta_orcamentaria_ano3
     type: number
-  - name: Previsão Física 2027
+  - name: Previsão Física 2028
     target: vr_meta_fisica_ano3
     type: integer
 primaryKey:

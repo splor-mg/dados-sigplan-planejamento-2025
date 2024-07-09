@@ -31,41 +31,41 @@ fields:
     target: dt_apuracao
     type: date
     format: '%d/%m/%Y'
-  - name: Previsão para 2024
+  - name: Previsão para 2025
     target: previsao_para_ano0
     type: number
     decimalChar: '.'
-  - name: Em apuração? (2024)
+  - name: Em apuração? (2025)
     target: is_em_apuracao_ano0
     type: boolean
     missingValues: []
     trueValues: ["Em Apuração"]
     falseValues: [""]
-  - name: Previsão para 2025
+  - name: Previsão para 2026
     target: previsao_para_ano1
     type: number
     decimalChar: '.'
-  - name: Em apuração? (2025)
+  - name: Em apuração? (2026)
     target: is_em_apuracao_ano1
     type: boolean
     missingValues: []
     trueValues: ["Em Apuração"]
     falseValues: [""]
-  - name: Previsão para 2026
+  - name: Previsão para 2027
     target: previsao_para_ano2
     type: number
     decimalChar: '.'
-  - name: Em apuração? (2026)
+  - name: Em apuração? (2027)
     target: is_em_apuracao_ano2
     type: boolean
     missingValues: []
     trueValues: ["Em Apuração"]
     falseValues: [""]
-  - name: Previsão para 2027
+  - name: Previsão para 2028
     target: previsao_para_ano3
     type: number
     decimalChar: '.'
-  - name: Em apuração? (2027)
+  - name: Em apuração? (2028)
     target: is_em_apuracao_ano3
     type: boolean
     missingValues: []
