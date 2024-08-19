@@ -1,5 +1,5 @@
 {
-  "name": "ppag2023-dadosmg",
+  "name": "ppag2025-dadosmg",
   "profile": "tabular-data-package",
   "resources": [
     {
@@ -11,10 +11,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:96f6fbef78763758e0d0c39b90552695d0b845ad65c8607be5b9a4d7d3023ecc",
-      "bytes": 2141462,
+      "hash": "sha256:9a4afd1944e6e886f970e585c740a9ddff689afc11f92e5108093f65a14360b6",
+      "bytes": 2164284,
       "fields": 48,
-      "rows": 1009,
+      "rows": 1022,
       "schema": {
         "fields": [
           {
@@ -269,10 +269,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:2a5239974d128b1617505cae5245bc131d4992ff54641c4f6a85b3a5c8b97acf",
-      "bytes": 124930,
+      "hash": "sha256:e694bddf87ad60c37cd751d457cb2cc92d89c3a9bf5bad336786d097c866b973",
+      "bytes": 127108,
       "fields": 26,
-      "rows": 249,
+      "rows": 252,
       "schema": {
         "fields": [
           {
@@ -417,10 +417,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:54bac11c669662d6ba808ce93abc6ad88bb09814dabce6999735fcba01bb795c",
-      "bytes": 16656120,
+      "hash": "sha256:a21c7c87a64ab63faf1ccd1b81914339bcffe8e2978bec27f47997747c123f06",
+      "bytes": 16852344,
       "fields": 33,
-      "rows": 47034,
+      "rows": 47524,
       "schema": {
         "fields": [
           {
@@ -600,10 +600,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:29bfb44e2a9dd4216a5f8d2fa59bbf9b7d37e53699cbbbf7fe19d267603e2abc",
-      "bytes": 7478064,
+      "hash": "sha256:b161e3a603fb2c8d60283d15b75e937a63712f58a9c0fb9b09ca782db39a6888",
+      "bytes": 7646854,
       "fields": 29,
-      "rows": 2406,
+      "rows": 2427,
       "schema": {
         "fields": [
           {
@@ -755,5 +755,5 @@
       }
     }
   ],
-  "updated_at": "2024-08-14T10:31:02"
+  "updated_at": "2024-08-19T11:01:48"
 }
