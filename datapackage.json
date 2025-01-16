@@ -422,10 +422,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:2f7c96ea99c56c098323390e40ba0d0878f0ed7cb15b01a9839e4999c9a008e9",
-      "bytes": 19137416,
+      "hash": "sha256:6b0015aa1a78d5f9e27082af732cac1639a397c4e212822d9036280218929cf4",
+      "bytes": 19138209,
       "fields": 33,
-      "rows": 52810,
+      "rows": 52812,
       "schema": {
         "fields": [
           {
@@ -760,5 +760,5 @@
       }
     }
   ],
-  "updated_at": "2025-01-16T19:29:38"
+  "updated_at": "2025-01-16T21:24:52"
 }
