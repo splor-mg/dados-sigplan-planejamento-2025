@@ -5,6 +5,8 @@ fields:
   - name: Nome do Programa
     target: programa_desc
     type: string
+    description: Instrumento de organização da ação governamental que articula um conjunto de ações (projetos, atividades, operações especiais) para alcançar um objetivo comum, visando à solução de um problema ou ao atendimento de uma demanda da sociedade.1
+    plain_language: Representam as politicas públicas que foram planejadas e que serão executadas com os recursos recebidos pelo Estado. Tem por objetivo atender as demandas da sociedade e/ou enfrentar problemas identificados na realidade de quem vive no Estado. Os programas, são desdobrados em ações orçamentárias, que refletem de forma mais direta as ações e projetos que o Estado irá realizar dentro do conjunto da política pública.
   - name: Exclusão Lógica do Programa
     target: is_deleted_programa
     type: boolean
@@ -21,6 +23,8 @@ fields:
   - name: Área Temática
     target: area_tematica_desc
     type: string
+    description: Forma de organização da ação governamental que agrupa programas por temas afins (ex: Saúde, Segurança), independentemente do órgão executor. Divide-se em Finalísticas (que entregam resultados diretos ao cidadão) e de Apoio e Suporte (que dão sustentação à máquina pública).
+    plain_language: Organiza o orçamento por "assuntos" em vez de por "órgãos". A área "Segurança", por exemplo, junta os gastos da polícia, de projetos sociais de prevenção e de outras áreas que contribuem para o mesmo objetivo.
   - name: Código do Objetivo Estratégico
     target: objetivo_estrategico_cod
     type: integer
@@ -51,6 +55,8 @@ fields:
   - name: Objetivo
     target: objetivo
     type: string
+    description: Expressa a transformação que se pretende alcançar na realidade com a implementação de um conjunto de ações, sendo mensurável por meio de indicadores.
+    plain_language: É a grande missão do programa. Define o que se quer mudar ou resolver. Exemplo: "Garantir que 100% da população da cidade tenha acesso à rede de esgoto tratada".
   - name: Justificativa
     target: justificativa
     type: string
@@ -89,6 +95,8 @@ fields:
   - name: Título do Objetivo de Desenvolvimento Sustentável
     target: ods_titulo
     type: string
+    description: Conjunto de 17 objetivos globais da Agenda 2030 da ONU que servem como diretrizes para as políticas públicas. Os programas do Plano Plurianual (PPA/PPAG) devem estar vinculados aos ODS para alinhar o planejamento e o orçamento às metas globais de desenvolvimento.
+    plain_language: Uma "lista de ações" mundial para um futuro melhor (ex: acabar com a fome, proteger o meio ambiente). O governo brasileiro deve mostrar como seus planos e gastos ajudam a cumprir essas tarefas.
   - name: Subtítulo do Objetivo de Desenvolvimento Sustentável
     target: ods_subtitulo
     type: string
