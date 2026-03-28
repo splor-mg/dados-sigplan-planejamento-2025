@@ -67,6 +67,8 @@ fields:
   - name: Região Geográfica Intermediária
     target: regiao_geografica_desc
     type: string
+    description: Recorte territorial definido pelo IBGE em 2017, que agrupa municípios em torno de um polo urbano de maior complexidade, para fins de planejamento e gestão de políticas públicas.
+    plain_language: Uma nova forma de dividir o Brasil em regiões, agrupando cidades vizinhas que têm uma cidade maior como referência principal para serviços complexos, como universidades e hospitais especializados.
   - name: Código do Município IBGE
     target: municipio_ibge_cod
     type: integer

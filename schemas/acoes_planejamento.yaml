@@ -62,7 +62,7 @@ fields:
         - 7
         - 8
         - 9
-    description: >
+    detailed_description: >
       As ações classificam-se nos seguintes tipos:
 
       a) Projeto: é instrumento de programação orientado para alcançar o objetivo de um programa. 
@@ -116,6 +116,8 @@ fields:
       materiais, 
       institucionais, 
       etc.
+    description: Instrumento de programação para alcançar o objetivo de um programa, sendo a unidade básica de planejamento e execução orçamentária. Classifica-se em: Projeto (operações limitadas no tempo que expandem a ação de governo), Atividade (operações contínuas para manutenção) e Operação Especial (despesas que não geram produto, como pagamento de dívidas).
+    plain_language: É o que o governo faz na prática com o dinheiro público. Pode ser um projeto (construir uma escola), uma atividade (manter a escola funcionando) ou uma operação especial (pagar uma dívida antiga da educação).
     notes:
       - |
         A coluna `identificador_tipo_acao_cod` pode ser utilizada para segregação das ações percententes aos: 
@@ -123,6 +125,7 @@ fields:
         - __Orçamento fiscal__ (1, 2, 4, 7, 9)
         - __Orçamento de investimento das empresas controladas__ (3, 6, 8)
         - __Ações não orçamentárias__ (5)
+  
   - name: Tipo de Ação
     target: identificador_tipo_acao_desc
     type: string
@@ -154,6 +157,8 @@ fields:
   - name: Projeto Estratégico
     target: projeto_estrategico
     type: string
+    description: São os projetos considerados prioritários para o governo e estão relacionados com os objetivos estratégicos e diretrizes estratégicas do plano de longo prazo do Governo (PMDI 2019-2030).
+    plain_language: Agrupamento das políticas públicas consideradas prioritárias pelo governo, e que recebem um acompanhamento mais intensivo.
   - name: Exclusão Lógica da Ação
     target: is_deleted_acao
     type: boolean
@@ -181,6 +186,8 @@ fields:
   - name: Finalidade da Ação
     target: acao_finalidade
     type: string
+    description: Expressa o propósito da ação, o resultado que se pretende alcançar com a entrega do seu produto (bem ou serviço), devendo ser descrita de forma clara, concisa e iniciada por um verbo no infinitivo.
+    plain_language: É o "para quê" da ação. Se a ação é "Construir creches", a finalidade é "Ampliar o acesso à educação infantil". Explica o benefício esperado para a sociedade.
   - name: Descrição da Ação
     target: acao_descricao
     type: string
@@ -190,12 +197,16 @@ fields:
   - name: Público-Alvo
     target: publico_alvo_desc
     type: string
+    description: Especifica os setores da sociedade ou da própria administração pública aos quais a ação se destina e que se beneficiam direta e legitimamente com os produtos resultantes dela.
+    plain_language: Refere-se a parcela da sociedade, incluindo os próprios órgãos e entidades do setor público, no qual a política pública será destinada. Informa quem deverá se colher beneficios da realização da política pública.
   - name: Código do Produto
     target: produto_cod
     type: integer
   - name: Produto
     target: produto_desc
     type: string
+    description: Bem ou serviço que resulta da execução de uma ação orçamentária, destinado ao público-alvo. Cada ação deve ter um único produto, que é quantificado pela meta física.1
+    plain_language: É o resultado concreto de uma ação do governo. Se a ação é "construir escolas", o produto é "escola construída". Se a ação é "emitir passaportes", o produto é "passaporte emitido".
   - name: Especificação do Produto
     target: produto_especificacao
     type: string
@@ -208,6 +219,8 @@ fields:
   - name: Previsão Orçamentária 2025
     target: vr_meta_orcamentaria_ano0
     type: number
+    description: Valor orçamentário alocado para a execução de uma ação orçamentária durante a vigência do plano ou em suas revisões anuais. Corresponde à dotação orçamentária da ação.1
+    plain_language: É o valor em dinheiro reservado para realizar as entregas. Se a meta física é "construir 10 escolas", a meta orçamentária é o total de reais que se planeja gastar para construir essas 10 escolas.
   - name: Previsão Orçamentária 2026
     target: vr_meta_orcamentaria_ano1
     type: number
@@ -220,6 +233,8 @@ fields:
   - name: Previsão Física 2025
     target: vr_meta_fisica_ano0
     type: integer
+    description: Quantidade de produto (bem ou serviço) a ser ofertada por uma ação orçamentária durante o exercício financeiro, de forma regionalizada.1
+    plain_language: É o objetivo quantitativo de uma ação. Por exemplo: "construir 10 escolas", "vacinar 1 milhão de crianças" ou "pavimentar 50 km de estradas". Diz "quanto" o governo pretende entregar.
   - name: Previsão Física 2026
     target: vr_meta_fisica_ano1
     type: integer
@@ -237,6 +252,8 @@ fields:
   - name: Setor de Governo
     target: setor_governo
     type: string
+    description: Forma de organização das políticas públicas agregadas por de acordo com os órgãos executores das mesmas.
+    plain_language: Organiza as políticas públicas de acordo com os órgãos que realizam as mesmas. Exemplo:  Fazenda ,  Polícia Militar do Estado de Minas Gerais ,  Assembleia Legislativa )
   - name: Política para mulheres
     target: politica_mulheres
     type: string

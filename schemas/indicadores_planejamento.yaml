@@ -11,6 +11,8 @@ fields:
   - name: Indicador
     target: indicador
     type: string
+    description: Instrumento de mensuração para aferir o desempenho de um programa no alcance de seu objetivo. É expresso como uma taxa, índice ou percentual para avaliar a transformação na realidade.
+    plain_language: É o "termômetro" que mede se uma política pública está funcionando. Se o objetivo é "Reduzir a criminalidade", o indicador pode ser a "Taxa de homicídios".
   - name: Exclusão Lógica do Indicador
     target: is_deleted_indicador
     type: boolean
